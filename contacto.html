@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="Ie-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contáctame | Danna Zarta</title>
+	<meta name="description" content="Envía un formulario y contáctame. Instagram: @danna.zarta">
+	<meta name="keywords"
+		content="BRANDING, BRAND, REDES SOCIALES, IDENTIDAD VISUAL, MANUAL DE MARCA, DISEÑO GRÁFICO, EDICIÓN DE VIDEOS, INSTAGRAM, EDICIÓN DE IMÁGENES, EDICIÓN, TIKTOK">
+	<link rel="icon" type="image/png" href="assents/sources/logo.png">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" href="assents/estilos.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+	<header>
+
+		<section id="nav">
+			<nav>
+				<ul id="menu">
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+					<li><a href="servicios.html">Servicios</a></li>
+					<li><a href="sobre-mi.html">Sobre mi</a></li>
+					<li><a href="index.html">Inicio</a></li>
+				</ul>
+
+				<img class="logo" src="assents/sources/firma.png" width="200px" height="100px">
+
+			</nav>
+		</section>
+
+	</header>
+
+	<!--END MENU-->
+
+	<div class="container">
+
+		<div class="row">
+			<main class="col-md-7 ">
+				<section id="contacto">
+					<h1>¿Iniciamos?</h1> <br>
+					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+						the
+						industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+						type
+						and scrambled it to make a type specimen book.
+					</p>
+				</section>
+			</main>
+			<!-- FORMULARIO CON CHECKBOX, LISTADO Y BOTONES -->
+			<!-- <section id="formcontacto">
+
+				<p>Llena el siguiente forumalario y cuéntame un poco sobre tu proyecto:</p><br>
+
+				<form action="" id="formdanna">
+
+					<br>
+					<label for="NAME">Tu Nombre:</label>
+					<input type="text" name="NAME" placeholder="Nombre"><br>
+					<label for="SURNAME">Tu Apellido:</label>
+					<input type="text" name="SURNAME" placeholder="Apellidos"><br>
+					<label for="EMAIL">Tu E-mail: </label>
+					<input type="email" name="EMAIL" placeholder="correo@ejemplo.com"><br>
+					<label for="PASS">Tu Contraseña:</label>
+					<input type="password" name="PASS" placeholder="*********"><br>
+					<br>
+					<br>
+
+					<legend>¿Por qué me contactas?</legend>
+
+					<input type="radio" name="tiempo" value="Asesoría">
+					<span>Asesoría</span>
+					<input type="radio" name="tiempo" value="Branding">
+					<span>Branding</span>
+					<input type="radio" name="tiempo" value="Proyecto">
+					<span>Proyecto</span>
+					<br>
+					<br>
+
+					<legend>¿En dónde me encontraste?</legend>
+
+					<br>
+					<select name="redes">
+						<option value="PI">Instagram</option>
+						<option value="TI">TikTok</option>
+						<option value="IN">Pinterest</option>
+						<option value="FA">Facebook</option>
+					</select>
+					<br>
+					<br>
+
+					<legend>Escrbie lo que necesitas:</legend>
+
+					<br>
+					<textarea name="cotizacion" rows="8" cols="40"></textarea><br>
+
+
+					<input type="checkbox" name="acepta" value="1">
+					<span>Acepta términos y condiciones</span>
+					<br>
+					<br>
+
+
+					<input type="submit" value="Enviar Cotización" />
+					<input type="reset" value="Limpiar Cotización" />
+					<input type="button" value="Boton de Prueba" />
+					<hr>
+					<br>
+
+				</form>
+
+			</section> -->
+
+
+			<!-- Formulario de BS -->
+			<form class="col-md-5 ">
+				<label>
+					<p class="label-txt">NOMBRE</p>
+					<input type="text" class="input">
+					<div class="line-box">
+						<div class="line"></div>
+					</div>
+				</label>
+				<label>
+					<p class="label-txt">E-MAIL</p>
+					<input type="text" class="input">
+					<div class="line-box">
+						<div class="line"></div>
+					</div>
+				</label>
+				<label>
+					<p class="label-txt">ESCRIBE UN MENSAJE</p>
+					<input type="text" class="input">
+					<div class="line-box">
+						<div class="line"></div>
+					</div>
+				</label>
+
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-building"></i> </span>
+					</div>
+					<select class="form-control">
+						<option selected=""> SELECCIONA UN SERVICIO</option>
+						<option>Asesoría</option>
+						<option>Edición</option>
+						<option>Proyecto</option>
+					</select>
+				</div>
+
+				<!-- form-group end.// -->
+				<div class="form-group input-group">
+					<div class="input-group-prepend">
+						<span class="input-group-text"> <i class="fa fa-building"></i> </span>
+					</div>
+					<select class="form-control">
+						<option selected="">¿DÓNDE ME ENCONTRASTE?</option>
+						<option>Instagram</option>
+						<option>Tiktok</option>
+						<option>Pinterest</option>
+					</select>
+				</div> <!-- form-group end.// -->
+				<button type="submit">Enviar</button>
+			</form>
+		</div>
+
+
+
+
+	</div>
+
+	<!-- END FORMULARIO CON CHECKBOX, LISTADO Y BOTONES -->
+
+	<!--FOOTER-->
+
+	<footer>
+		<div class="footer-content">
+			<h3>Danna Zarta</h3>
+			<p>Asesorías personalizadas sobre contenido y redes sociales</p>
+			<p>¿Tienes alguna consulta? Sígueme</p>
+			<ul class="socials">
+				<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+				<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fa fa-behance"></i></a></li>
+			</ul>
+		</div>
+		<div class="footer-bottom">
+			<p>copyright &copy;2020 DannaZarta. designed by <span>Danna Zarta</span></p>
+		</div>
+	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+		integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+		integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
